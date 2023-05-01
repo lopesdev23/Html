@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-blog{
+            color: white;
+            background: #000;
+            text-align: center;
+            padding: 10px;
+        }
+        .main-p{
+            color: white;
+            background: #000;
+            text-align: center;
+            padding: 20px;
+        }
+        .main-cite{
+            color: white;
+            background: #000;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="main-blog">
+        <nav>
+            <ul>
+                <li ><a href="blog.html" ">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- CTRL+ Space-->
+    <!-- Aula sobre cabeçahlo -->
+    <!-- Criando um comentário -->
+    <!-- tecla menor + esclamação + duas x traco--> 
+    <h1>Cabeçalho nivel 1</h1>
+    <h2>Cabeçalho nivel 2</h2>
+     <h3>Cabeçalho nivel 3</h3>
+      <h4>Cabeçalho nivel 4</h4>
+       <h5>Cabeçalho nivel 5</h5>
+        <h6>Cabeçalho nivel 6</h6>
+
+    <!--paragráfos --> 
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur <em><strong> adipisicing elit.</strong></em>  Tempore, dicta.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In commodi iusto magni fugiat numquam ipsam.</p>
+    <!--Tag Strong--><!--destaca o a frase ou palavra em negrito-->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  <strong>Corrupti perspiciatis ad laboriosam</strong> doloremque omnis ex dicta veniam delectus sapiente tempora!</p>
+
+    <!--trabalhando com links-->
+    <a href="https://google.com.br" target="_blank">link</a>
+    <div class="dicasparadev"></div>
+    <!--Tabelas-->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+            </tr>           
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td>Carloslopes@gmail.com</td>
+                <td> 45 anos</td>
+            </tr>
+            <tr>
+                <td>joao</td>
+                <td>joaolopes@gmail.com</td>
+                <td> 35 anos</td>
+            </tr>
+            <tr>
+                <td>Beto</td>
+                <td>betolopes@gmail.com</td>
+                <td> 45 anos</td>
+            </tr>
+            <hr>
+
+        </tbody>
+    </table>
+    <hr>
+    <!--Formulários-->
+
+    <form action="Form.php" method="post">
+         <!--input + TAB faz completo-->
+      <div>
+      <label for="">Primeiro Nome</label><br>
+      <input type="text" placeholder="Digite seu primeiro nome"><br>
+      </div>
+        <div>
+            <label for="">Segundo Nome</label><br>
+             <input type="text" placeholder="digite seu segundo nome">
+        </div>
+             <div>
+                <label for="">Email</label><br>
+                <input type="Email" placeholder="Digite seu email">
+             </div>
+                  <div>
+                     <label for="">Genero</label><br>
+                     <select name="" id="">
+                     <option value="Masculino" aria-placeholder="defina seu sexo">Masculino</option>
+                     <option value="Feminino">Feminino</option>
+                    </select>
+                  </div>
+                        <div>
+                     <label for="">Data de Nascimento</label><br>
+                     <input type="date" placeholder="Digite sua data de Nascimento "><br>
+                     <label for="">Horario Local</label><br>
+                     <input type="datetime-local">
+                       </div>
+        <div>
+           <label for="">Senha</label><br>
+           <input type="password" placeholder="Digite sua senha">
+        </div>      
+<div>
+    <label for="">Mensagem</label><br>
+    <textarea type="text" placeholder="Digite sua Mensagem"></textarea><br>
+    <input type="submit">
+</div>                 
+    </form>
+       <!--botoes--> 
+       <button>Click me</button><br>
+       <!--Imagens-->
+       <div>
+         <img src="./img/download (1).jpg" alt="falha no carregamento da imagem" width="200" height="150">
+       </div>
+      <!--Citação de textos blockquote-->
+      <blockquote cite="dicasparadev.com.br">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eum harum aperiam sequi quo hic commodi eligendi, in doloribus quia porro possimus doloremque, 
+         distinctio, dicta ut deleniti necessitatibus corrupti ducimus blanditiis?
+
+      </blockquote>
+      <header>
+      <p>Apredendo html <abbr title="Esta complicado pra carambra">kkk</abbr>!</p>
+      <p class="main-p">Tutorial finalizado por alguem <cite class="main-cite"> <em><strong>by anonimous</strong></em> </cite></p>
+      </header>
+     
+
+</body>
+</html>
